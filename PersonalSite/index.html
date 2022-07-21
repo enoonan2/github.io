@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Elizabeth Noonan's IT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="C:\Users\17087\OneDrive\Desktop\PersonalSite\Images\Cover.png">ABOUT</a></li>
+                    <li><a href="C:\Users\17087\OneDrive\Desktop\PersonalSite\Images\Resume.png">RESUME</a></li>
+                    <li><a href="https://anchor.fm/elizabeth-noonan">PODCAST</a></li>
+                    <li><a href="https://www.linkedin.com/in/elizabeth-noonan-38a8851b5/">LINKEDIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Elizabeth N Noonan:</h1>
+            <h1>B.S in Information Technology</h1>
+            <p>Everyday I seek to invite positive changes through personal growth, developement, and the arrival of new oppurtunities.</p>
+            <a href=""class="hero-btn">Check Out This Cool LinkedIn!</a>
+
+
+        </div>
+
+        </section>
+
+        <!----resume---->
+
+        <section class="resume">
+            <h1> Elizabeth N Noonan's Experience</h1>
+            <p> This is an updated display of my most recent experiences. Please review it and advise.</p>
+            <div class="row">
+                <div class="resume-col">
+                    <img src="Images/Cover.png"> 
+                    <div class="layer">
+                        <h3>Cover Letter</h3>
+                    </div>
+                </div>
+                <div class="resume-col">
+                    <img src="Images/Resume.png"> 
+                    <div class="layer">
+                        <h3>Resume</h3>
+                    </div>
+                </div>
+                <div class="resume-col">
+                    <img src="Images/Transcript.png"> 
+                    <div class="layer">
+                        <h3>Transcript</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="course-col">
+                    <h3> Education </h3>
+                    <p> I am a senior at Governor's State University, set to graduate in December of 2022. Previously, I completed general selective course work at Moraine Valley Community College, but transfered my credits prior to obtaining certificate. I look forward to taking additional classes after I graduate to obtain CompTIA certificates and eventually, a Master's in Information Technology or similar field.</p> 
+                </div>
+                <div class="course-col">
+                    <h3> Professional </h3>
+                    <p> The majority of my work experience is in the logistics industry. I have worked at FedEx Ground for a cummulative of 5 years, holding several prestigious positions. For example: I was an Operations Manager, Customer Pickup Coordinator, and Dispatcher. During the SU2022 semester, I had the pleasure of participating in a temporary internship at Amazon KRFD Air Gate as an IT Support Engineer.  </p> 
+                </div>
+                <div class="course-col">
+                    <h3> Skills </h3>
+                    <p> I am extremely passionate about learning and expanding skillsets. As a manager, this was one of my core values when training my team. Please observe my resume for a full list of skills relevant to the position. Feel free to make reccomendations, as I am always looking for oppurtunities to develope and challenge myself.  </p> 
+                </div>
+            </div>
+
+        </section>
+<!-------projects------->
+        
+        <section class="projects">
+            <h1>Independent Projects</h1>
+            <p> As part of an effort to develope myself, I have taken on many independent projects. For example, I find that I learn best in a hands-on environment, while teaching others, or while learning about things I'm passionate about. 
+            <p> Here, you will see some of the many examples of my work. First, I was able to create a site that gave a basic overview on Laptop and Device maintenance. I took away experience on how to format web pages and a greater understanding of how to use code editors.</p>
+            <p> Next, my podcast is vital to my learning. In highschool, my geometry teacher made us complete an assignment where we had to create an instruction video for the class. From this, I found that I comprehend concepts more deeply when I am explaining it to others. </p>
+            <p> Finally, I included one of the many certificates I obtained in my free time. I love exploring sites like LinkedIn Learning, Forage, Coursera, and even my jobs personal training sites for chances to learn new skills and practice them in challenges. Afterall, that's how I discovered my first hackathon! </p>
+
+            <div class="row">
+                <div class="projects-col">
+                    <img src="Images/LaptopMaintenanceSite.png"> 
+                    <div class="layer">
+                        <h3>Laptop Maintenance Site</h3>
+                    </div>
+                </div>
+                <div class="projects-col">
+                    <img src="Images/infosec podcast.png"> 
+                    <div class="layer">
+                        <h3>InfoSec Podcast</h3>
+                    </div>
+                </div>
+                <div class="projects-col">
+                    <img src="Images/Course Certificate Crop.png"> 
+                    <div class="layer">
+                        <h3>Independent Learning</h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!------JavaScript for Menu Functions--------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                 navLinks.style.right = "-200px";
+            }
+    </script>
+
+
+
+    </body>
+    </html>
